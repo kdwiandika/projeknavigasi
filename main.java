@@ -37,6 +37,7 @@ Scanner scan = new Scanner(System.in);
 
  else if (pilihIN == 2)
  {
+  //kadek
      System.out.println("Wilayah Lowokwaru");
      System.out.println("Pilih opsi : ");
      System.out.println("1. Rumah Sakit");
@@ -45,6 +46,7 @@ Scanner scan = new Scanner(System.in);
  }
  else if(pilihIN == 3)
  {
+  //gery
      System.out.println("Wilayah Klojen");
      System.out.println("Pilih opsi : ");
      System.out.println("1. Rumah Sakit");
