@@ -42,6 +42,35 @@ Scanner scan = new Scanner(System.in);
      System.out.println("1. Rumah Sakit");
      System.out.println("2. Kantor Polisi");
      System.out.println("3. Kantor Pos");
+     System.out.println("4. Pasar");
+     System.out.println("5. Hotel");
+
+     
+     pilihIN = scan.nextInt();
+
+      if (pilihIN == 1)
+      {
+          System.out.println("1.  (Disertai gambar map)");
+          System.out.println("2. dan lain lain");
+      }else if (pilihIN == 2)
+      {
+          System.out.println("1.  (Disertai gambar map)");
+          System.out.println("2. dan lain lain");
+      }else if (pilihIN == 3)
+      {
+          System.out.println("1.  (Disertai gambar map)");
+          System.out.println("2. dan lain lain");
+      }else if (pilihIN == 4)
+      {
+          System.out.println("1. Pasar Tawangmangu -> Jl. Tawangmangu No. 8 (Disertai gambar map)");
+          System.out.println("2. dan lain lain");
+      }else if (pilihIN == 5)
+      {
+          System.out.println("1. Hotel Santika Premiere Malang -> Jl. Letjen Sutoyo, No. 79 (Disertai gambar map)");
+          System.out.println("2. dan lain lain");
+      }
+  
+     
  }
  else if(pilihIN == 3)
  {
